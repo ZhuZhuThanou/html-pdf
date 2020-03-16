@@ -2,6 +2,8 @@
 
 <img src="images/code-to-screen.png" />
 
+## This requires [react-to-print package](https://www.npmjs.com/package/react-to-print)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
