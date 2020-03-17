@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.App2 {
+  text-align: left;
+}
+
+.ShowPrint {
+  display: inline;
+}
+
+.HidePrint {
+  display: none;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
