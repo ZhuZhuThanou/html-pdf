@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactToPrint from 'react-to-print';
 import logo from './logo.svg';
+import Card from './Card';
 import './App.css';
 
 class ComponentToPrint extends React.Component {
@@ -19,6 +20,7 @@ class ComponentToPrint extends React.Component {
         >
           Learn React
         </a>
+        <Card />
       </header>
     );
   }
@@ -37,6 +39,7 @@ class App extends React.Component {
           content={() => this.componentRef}
         />
         <ComponentToPrint ref={el => (this.componentRef = el)} />
+        {/* <Card ref={el => (this.componentRef = el)} /> */}
       </div>
     </div>
   );
